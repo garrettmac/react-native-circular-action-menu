@@ -235,9 +235,9 @@ export default class ActionButton extends Component {
       );
     }
     return (
-      <View
+      <Animated.View
         pointerEvents="box-none"
-        style={styles.overlay}
+        style={[styles.overlay,this.props.style]}
       >
         {backdrop}
 
@@ -248,7 +248,7 @@ export default class ActionButton extends Component {
         >
           {this.renderButton()}
         </View>
-      </View>
+      </Animated.View>
     );
   }
 }
