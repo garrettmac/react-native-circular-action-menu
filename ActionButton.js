@@ -316,13 +316,13 @@ const styles = StyleSheet.create({
   btn: {
     justifyContent: 'center',
     alignItems: 'center',
-    shadowOpacity: 0.3,
-    shadowOffset: {
-      width: 0,
-      height: 1,
-    },
-    shadowColor: '#444',
-    shadowRadius: 1,
+  //  shadowOpacity: 0.3,
+  //  shadowOffset: {
+  //    width: 0,
+  //    height: 1,
+   // },
+  //  shadowColor: '#444',
+  //  shadowRadius: 1,
   },
   btnText: {
     marginTop: -4,
